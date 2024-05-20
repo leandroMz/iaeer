@@ -1,0 +1,33 @@
+.EnfermedadesContainer {
+    display: flex;
+    height: 60vh;
+    background-color: #ebebeb;
+    padding-bottom: 2rem;;
+  }
+  
+  .LeftQuadrant {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .LeftQuadrantOne, .LeftQuadrantTwo, .RightQuadrantOne, .RightQuadrantTwo{
+    padding: 2rem 10rem;
+  }
+  .RightQuadrantContainer {
+    flex: 1;    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: .5rem 0 0 .5rem;
+  }
+  
+  .LeftQuadrant h4{
+  color: #0D47A1;
+  font-size: 1.15rem;    
+  }
+
+  .LeftQuadrant p{
+    color: #505f75;   
+    font-style: italic; 
+    }

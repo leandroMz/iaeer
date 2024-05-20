@@ -1,0 +1,28 @@
+.NavBaar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 10rem;
+    background-color: rgb(13, 46, 73);
+}
+
+.NavBaarLogo{
+    height: 4em;
+    width: 16em;
+}
+
+.itemNavBaar{
+    display: flex;
+    flex-direction: row;
+}
+.itemNavBaar li{
+    padding-left: 1.8rem;
+}
+.itemNavBaar a{
+    color: aliceblue;    
+    font-weight: 800;
+}
+.itemNavBaar a:hover{
+    color: rgb(147, 190, 228);    
+    font-weight: 800;
+}

@@ -1,0 +1,26 @@
+.BoxTeamGral {
+    padding: 2rem 10rem;
+    background-color: #ebebeb;
+
+}
+.TeamTitle {
+    color: #0D47A1;
+    font-size: 3em;
+    text-align: center;
+}
+.TeamsubTitle{
+    color: rgb(92, 129, 177);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.TeamContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.CardTeam {
+    width: calc(30% - 1rem);
+    margin-bottom: 1rem;
+}

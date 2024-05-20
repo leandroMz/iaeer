@@ -1,0 +1,110 @@
+.researchCenter {
+    padding: 3rem 10rem ;
+    background-color: #ebebeb;
+}
+
+.backToTop {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: none;
+}
+
+.fullWidthImage {
+    width: 100%;
+    height: 40rem;
+}
+
+.researchCenterTop h2 {
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+}
+.fullWidthVideoContainer {
+    width: 100%;
+    height: 40rem;
+    overflow: hidden;
+    border-radius: .5rem;
+  }
+  
+
+  .fullWidthVideo {
+    width: 100%;
+    height: auto;
+  }
+.researchCenter h2 {
+    color: #0D47A1;
+}
+
+.researchCenter p {
+    font-style: italic;
+}
+
+.sectionCenter {
+    margin: 2rem 0;
+}
+
+.sectionCenter h4 {
+    margin: .5rem 0 1rem;
+}
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    gap: 2rem;
+}
+
+.projectGrid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: .5rem .5rem 0 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projectTextCenter {
+    display: flex;
+}
+
+.sectionCenter2,
+.sectionCenter3 {
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.sectionCenter2 {
+    margin-right: 1rem;
+}
+
+.sectionCenter3 {
+    margin-left: 1rem;
+}
+
+
+.projectCard {
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardContent {
+    padding: 1rem;
+  }
+  
+  .cardContent h3 {
+    margin-bottom: .5rem;
+  }
+  
+  .cardContent p {
+    margin-bottom: .5rem;
+  }
+
+  .fullHeightImage {
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+    background-color: black;
+  }
