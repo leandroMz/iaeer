@@ -1,4 +1,4 @@
-.NavBaar{
+.NavBaar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -6,23 +6,117 @@
     background-color: rgb(13, 46, 73);
 }
 
-.NavBaarLogo{
+.NavBaarLogo {
     height: 4em;
     width: 16em;
 }
 
-.itemNavBaar{
+.itemNavBaar {
     display: flex;
     flex-direction: row;
 }
-.itemNavBaar li{
+
+.itemNavBaar li {
     padding-left: 1.8rem;
 }
-.itemNavBaar a{
-    color: aliceblue;    
+
+.itemNavBaar a {
+    color: aliceblue;
     font-weight: 800;
 }
-.itemNavBaar a:hover{
-    color: rgb(147, 190, 228);    
+
+.itemNavBaar a:hover {
+    color: rgb(147, 190, 228);
     font-weight: 800;
+}
+
+.MenuIcon {
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.MenuIcon div {
+    background-color: #ffffff;
+}
+
+.NavMenu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 1500px) {
+    .NavBaarLogo {
+        height: 3.5em;
+        width: 14em;
+    }
+}
+
+@media (max-width: 1320px) {
+    .itemNavBaar a {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 1220px) {
+    .NavBaarLogo {
+        height: 3.2em;
+        width: 13em;
+    }
+
+    .itemNavBaarMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 910px) {
+    .NavBaar {
+        padding: 1.5rem 4rem;
+    }
+    .NavBaarLogo {
+        height: 3em;
+        width: 12em;
+    }
+}
+@media (max-width: 700px) {
+    .NavBaar {
+        padding: 1.5rem 2rem;
+    }
+    .NavBaarLogo {
+        height: 2.5em;
+        width: 10em;
+    }
+}
+@media (max-width: 700px) {
+    .NavBaar {
+        padding: 1.5rem 2rem;
+    }
+    .NavBaarLogo {
+        height: 2.5em;
+        width: 10em;
+    }
+}
+
+@media (max-width: 600px) {
+    .NavBaar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem 2rem;
+    }
+    .itemNavBaar li {
+        padding: 1rem 1rem 0;        
+    }
+}
+@media (max-width: 424px) {
+    .NavBaar {
+        padding: 1.5rem 1rem;
+    }
+    .itemNavBaar li a{
+        font-size: .6rem;
+        text-align: center;     
+    }
 }

@@ -1,5 +1,4 @@
-// src/components/navBar/NavBar.jsx
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from 'react-router-dom';
 import Styles from './NavBar.module.css';
 import { smoothScrollTo } from '../utils/scrollUtils';
 
@@ -24,12 +23,12 @@ export const NavBar = () => {
             <img src="./logotype.png" alt="" />
           </Link>
         </div>
-        <div>
+        <div className={Styles.NavMenu}>
           <ul className={Styles.itemNavBaar}>
-            <li>
+            <li className={Styles.itemNavBaarMobile}>
               <Link to="/" onClick={() => handleNavigation('/', 'servicios')}>Servicios</Link>
             </li>
-            <li>
+            <li className={Styles.itemNavBaarMobile}>
               <Link to="/" onClick={() => handleNavigation('/', 'profesionales')}>Profesionales</Link>
             </li>
             <li>
@@ -38,7 +37,7 @@ export const NavBar = () => {
             <li>
               <Link to="/preguntas_frecuentes">Preguntas frecuentes</Link>
             </li>
-            <li>
+            <li className={Styles.itemNavBaarMobile}>
               <Link to="/" onClick={() => handleNavigation('/', 'contacto')}>Contacto</Link>
             </li>
           </ul>

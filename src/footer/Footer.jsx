@@ -21,17 +21,16 @@ export const Footer = () => {
         </div>
         <div className={Styles.contact}>
           <h4>Contactate con nosotros</h4>
-          <p>Teléfono: 123456789</p>
+          <p>Teléfono: 3794391031</p>
           <p>Email: info@example.com</p>
         </div>
         <div className={Styles.SocialFoot}>
           <h4>Redes Sociales</h4>
-        <ul className={Styles.SocialFootList}>
-        
-          <li><FaFacebook /></li>
-          <li><FaInstagram /></li>
-          <li><FaTwitter /></li>
-        </ul>
+          <ul className={Styles.SocialFootList}>
+            <li><FaFacebook /></li>
+            <li><FaInstagram /></li>
+            <li><FaTwitter /></li>
+          </ul>
         </div>
       </div>
       <div className={Styles.rightSection}>

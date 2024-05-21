@@ -18,7 +18,6 @@
     filter: blur(1px);
 }
 
-
 .contentCarro {
     position: absolute;
     top: 50%;
@@ -26,16 +25,16 @@
     transform: translateY(-50%);
     max-width: 60%;
 }
-.contentCarroTitle{
-    max-width: 65%;
 
+.contentCarroTitle {
+    max-width: 65%;
 }
+
 .contentCarro h3 {
     font-size: 3.5rem;
     color: #0ad4f8;
     font-weight: 800;
 }
-
 
 .contentCarro p {
     font-size: 1.8rem;
@@ -44,7 +43,6 @@
     max-width: 55%;
     font-style: italic;
     font-weight: 900;
-
 }
 
 .contentCarro button {
@@ -67,5 +65,94 @@
 
 .titleCarro {
     color: rgb(255, 255, 255);
+}
 
+@media (max-width: 1500px) {
+    .contentCarroTitle h3 {
+        font-size: 3rem;
+    }
+
+    .contentCarro p {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width: 1020px) {
+    .contentCarro {
+        max-width: 90%;
+    }
+
+    .contentCarroTitle h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .HCarrousel {
+        height: 40rem;
+    }
+    .contentCarro {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 10%;
+        left: 0rem;
+        transform: translateY(0%);
+        max-width: 100%;
+    }
+    .contentCarro button {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .HCarrousel {
+        height: 35rem;
+    }
+    .contentCarro {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 10%;
+        left: 0rem;
+        transform: translateY(0%);
+        max-width: 100%;
+    }
+    .contentCarroTitle h3 {
+        font-size: 2rem;
+    }
+
+    .contentCarro p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .contentCarroTitle h3 {
+        font-size: 1.7rem;
+    }
+
+    .contentCarro button {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .contentCarroTitle h3 {
+        font-size: 1.5rem;
+    }
+
+    .contentCarro button {
+        font-size: 1rem;
+    }
+    .contentCarro p {
+        font-size: .8rem;
+    }
 }
