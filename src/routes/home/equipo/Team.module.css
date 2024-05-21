@@ -1,14 +1,15 @@
 .BoxTeamGral {
     padding: 2rem 10rem;
     background-color: #ebebeb;
-
 }
+
 .TeamTitle {
     color: #0D47A1;
     font-size: 3em;
     text-align: center;
 }
-.TeamsubTitle{
+
+.TeamsubTitle {
     color: rgb(92, 129, 177);
     font-size: 1.5em;
     text-align: center;
@@ -24,3 +25,85 @@
     width: calc(30% - 1rem);
     margin-bottom: 1rem;
 }
+
+@media (max-width: 1700px) {
+    .CardTeam {
+        width: calc(50% - 1rem);
+        margin-bottom: 1rem;
+    }
+
+    .TeamContainer {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1400px) {
+    .BoxTeamGral {
+        padding: 2rem 5rem;
+    }
+}
+
+@media (max-width: 1220px) {
+    .BoxTeamGral {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 1020px) {
+    .BoxTeamGral {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 885px) {
+    .BoxTeamGral {
+        padding: 3rem .5rem 1rem;
+    }
+
+    .TeamTitle {
+        font-size: 2em;
+    }
+
+    .TeamsubTitle {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 750px) {
+    .TeamContainer {
+        justify-content: space-between;
+    }
+
+    .CardTeam {
+        width: calc(50% - 1rem);
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 660px) {
+    .BoxTeamGral {
+        padding: 2rem;
+    }
+
+    .CardTeam {
+        width: calc(100% - 1rem);
+        margin-bottom: .5rem;
+    }
+
+    .TeamContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .TeamTitle {
+        font-size: 1.4em;
+    }
+
+    .TeamsubTitle {
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 460px) {}
+
+@media (max-width: 400px) {}

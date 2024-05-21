@@ -144,7 +144,9 @@
 }
 
 @media (max-width: 400px) {
-
+    .HCarrousel {
+        height: 30rem;
+    }
     .contentCarroTitle h3 {
         font-size: 1.5rem;
     }

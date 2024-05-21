@@ -13,19 +13,66 @@
     border-radius: .5rem .5rem 0 0;
 }
 
-.BoxTeamInfo h4{
+.BoxTeamInfo h4 {
     color: #0D47A1;
     font-weight: 900;
     font-size: 1.1rem;
 }
 
-.BoxTeamInfo h5{
+.BoxTeamInfo h5 {
     color: rgb(92, 129, 177);
 }
 
-.BoxTeamInfoTitles{
-    text-align: center;    
+.BoxTeamInfoTitles {
+    text-align: center;
 }
-.BoxTeamInfo p{
+
+.BoxTeamInfo p {
     padding: 1rem .5rem;
 }
+
+@media (max-width: 1700px) {
+    .BoxTeam {
+        margin: 3rem 2rem;
+        width: 25%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .BoxTeam {
+        margin: 3rem 1rem;
+        width: 28%;
+    }
+}
+
+@media (max-width: 885px) {
+    .BoxTeam {
+        margin: 3rem .5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .BoxTeam {
+        margin: 3rem 2rem;
+        width: 40%;
+    }
+}
+
+@media (max-width: 660px) {
+    .CardTeam {
+        width: calc(60% - 1rem);
+        margin-bottom: .5rem;
+    }
+
+    .BoxTeam {
+        margin: 1rem 2rem;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 580px) {}
+
+@media (max-width: 460px) {}
+
+@media (max-width: 400px) {}
