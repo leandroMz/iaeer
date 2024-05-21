@@ -19,7 +19,6 @@
 .footAbaoutUsInfo h4 {
     font-size: 1.3rem;
     color: rgb(255, 255, 255);
-
 }
 
 .footAbaoutUsInfo p {
@@ -31,6 +30,11 @@
 
 .footAbaoutUsImg {
     width: 45%;
+    height: auto;
+}
+.footAbaoutUsImg img {
+    width: 100%;
+    height: auto;
 }
 
 .footAbaoutUsButton {
@@ -55,25 +59,49 @@
 }
 
 @media (max-width: 1500px) {
+    .footAbaoutUsImg {
+        width: 45%;
+    }
+
+    .footAbaoutUsInfo h3 {
+        font-size: 1.8rem;
+    }
+    
+    .footAbaoutUsInfo h4 {
+        font-size: 1rem;
+    }
+    .footAbaoutUsInfo p {
+        font-size: .8rem;
+    }
+    .footAbaoutUsButton {
+        padding: 1rem 0;
+    }
 
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1220px) {
+    .footAbaoutUs {
+       padding: 2rem;
+    }
+    .footAbaoutUsImg {
+        display: none;
+    }
+    .footAbaoutUsInfo {
+        width: 100%;
+        padding: 0;
+    }
 
 }
 
-@media (max-width: 750px) {
-
-}
+@media (max-width: 750px) {}
 
 @media (max-width: 580px) {
-
+    .footAbaoutUsButton {
+        padding: 2rem 0;
+        text-align: center;
+    }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 460px) {}
 
-}
-
-@media (max-width: 400px) {
-
-}
+@media (max-width: 400px) {}
