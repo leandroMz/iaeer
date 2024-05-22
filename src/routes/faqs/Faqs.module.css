@@ -26,3 +26,67 @@
     border-radius: .5rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
+@media (max-width: 1500px) {
+    .FaqCenter {
+        padding: 1rem 6rem;
+    }
+    .FaqCenterTop h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 1020px) {
+    .FaqCenter {
+        padding: 1rem 5rem;
+    }
+    .FaqCenterTop h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 820px) {
+    .FaqCenter {
+        padding: 1rem 2rem;
+    }
+    .FaqCenterTop h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .FaqCenter {
+        padding: 1rem;
+    }
+    .FaqCenterTop h2 {
+        font-size: 1.2rem;
+    }
+    .FaqSection, .FaqRespSection{
+        padding: .5rem;
+    }
+    .FaqSection h3{
+        font-size: 1rem;
+    }
+    .FaqSection p{
+        font-size: .8rem;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .FaqCenterTop h2 {
+        font-size: .8rem;
+    }
+    .FaqSection h3{
+        font-size: .8rem;
+    }
+    .FaqSection p{
+        font-size: .6rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+}

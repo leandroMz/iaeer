@@ -1,5 +1,5 @@
 .researchCenter {
-    padding: 3rem 10rem ;
+    padding: 3rem 10rem;
     background-color: #ebebeb;
 }
 
@@ -20,18 +20,21 @@
     font-size: 3.2rem;
     margin-bottom: 1rem;
 }
+
 .fullWidthVideoContainer {
     width: 100%;
-    height: 40rem;
+    height: auto;
     overflow: hidden;
     border-radius: .5rem;
-  }
-  
+    background-color: #0D47A1;
+}
 
-  .fullWidthVideo {
+
+.fullWidthVideo {
     width: 100%;
     height: auto;
-  }
+}
+
 .researchCenter h2 {
     color: #0D47A1;
 }
@@ -72,7 +75,6 @@
     background-color: rgb(255, 255, 255);
     border-radius: .5rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-
 }
 
 .sectionCenter2 {
@@ -83,53 +85,116 @@
     margin-left: 1rem;
 }
 
-
 .projectCard {
     background-color: #fff;
     border-radius: .5rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .cardContent {
-    padding: 1rem;
-  }
-  
-  .cardContent h3 {
-    margin-bottom: .5rem;
-  }
-  
-  .cardContent p {
-    margin-bottom: .5rem;
-  }
+}
 
-  .fullHeightImage {
+.cardContent {
+    padding: 1rem;
+}
+
+.cardContent h3 {
+    margin-bottom: .5rem;
+}
+
+.cardContent p {
+    margin-bottom: .5rem;
+}
+
+.fullHeightImage {
     height: 40rem;
     width: 100%;
     object-fit: cover;
     background-color: black;
-  }
+}
 
-  @media (max-width: 1500px) {
+@media (max-width: 1500px) {}
 
-  }
-  
-  @media (max-width: 1020px) {
-  
-  }
-  
-  @media (max-width: 750px) {
-  
-  }
-  
-  @media (max-width: 580px) {
-  
-  }
-  
-  @media (max-width: 460px) {
-  
-  }
-  
-  @media (max-width: 400px) {
-  
-  }
-  
+@media (max-width: 1250px) {
+    .researchCenterTop h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1020px) {
+    .imgFootCenter {
+        display: none;
+    }
+
+    .researchCenter {
+        padding: 2rem 5rem;
+    }
+
+    .researchCenterTop h2, .sectionCenter h2 {
+        font-size: 1.7rem;
+    }
+
+    .projectTextCenter {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .sectionCenter2 {
+        margin-right: 0;
+    }
+
+    .sectionCenter3 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    .researchCenter {
+        padding: 1rem 2rem;
+    }
+
+    .researchCenterTop h2 {
+        font-size: 1.5rem;
+    }
+    .sectionCenter h2{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .researchCenter {
+        padding: 1rem;
+    }
+
+    .researchCenterTop h2 {
+        font-size: 1.2rem;
+    }
+    .sectionCenter h2{
+        font-size: 1rem;
+    }
+    .sectionCenter h4{
+        font-size: .8rem;
+    }
+
+    .sectionCenter2 h2, .sectionCenter3 h2{
+        font-size: 1rem;
+        margin-bottom: .3rem;
+    }
+    .sectionCenter2 p, .sectionCenter3 p{
+        font-size: .8rem;
+    }
+    .cardContent h3{
+        font-size: 1rem;
+    }
+    .cardContent p{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 390px) {
+    .researchCenterTop h2 {
+        font-size: .8rem;
+    }
+    .sectionCenter2 h2, .sectionCenter3 h2{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 400px) {}

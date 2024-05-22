@@ -25,7 +25,6 @@ export const ResearchCenter = () => {
           <Link to="/">
             <button className={Styles.backToTop}>Volver al inicio</button>
           </Link>
-
           <h2>Centro de Investigación de IAAER</h2>
         </div>
         <div className={Styles.fullWidthVideoContainer}>
