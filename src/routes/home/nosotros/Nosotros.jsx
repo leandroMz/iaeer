@@ -5,7 +5,7 @@ export const Nosotros = () => {
     window.open(url, '_blank');
   };
   return (
-    <div className={Styles.footAbaoutUs}>
+    <div className={Styles.footAbaoutUs} id="nosotros">
       <div className={Styles.footAbaoutUsInfo}>
         <h3>Nosotros</h3>
         <h4>

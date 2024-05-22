@@ -2,21 +2,37 @@ import Styles from './Footer.module.css';
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { Link, useNavigate } from 'react-router-dom';
+import { smoothScrollTo } from '../utils/scrollUtils';
 
 export const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleNavigation = (path, refId) => {
+    navigate(path);
+    setTimeout(() => {
+      const target = document.getElementById(refId);
+      if (target) {
+        smoothScrollTo(target, 2000);
+      }
+    }, 100);
+  };
   return (
     <div className={Styles.footerBox} id="contacto">
       <div className={Styles.leftSection}>
         <div className={Styles.navbarFoot}>
           <div className={Styles.navLeft}>
-            <a href="#">Inicio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Profesionales</a>
+            <a href="/">Inicio</a>
+            <Link to="/" onClick={() => handleNavigation('/', 'servicios')}>Servicios</Link>
+
+            <Link to="/" onClick={() => handleNavigation('/', 'profesionales')}>Equipo Médico</Link>
+
           </div>
           <div className={Styles.navRight}>
-            <a href="#">Nosotros</a>
-            <a href="#">Solicitar turno</a>
-            <a href="#">Centro de investigación</a>
+          <Link to="/" onClick={() => handleNavigation('/', 'nosotros')}>Nosotros</Link>
+
+            <a href="https://www.iaaerreservas.com.ar/" target='blank'>Solicitar turno</a>
+            <Link to="/centro_de_investigacion">Centro de investigación</Link>
           </div>
         </div>
         <div className={Styles.contact}>
