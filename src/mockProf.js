@@ -2,7 +2,7 @@ const teamData = [
     {
       id: 1,
       name: "Dr. Alejandro Berardi",
-      image: "/doc1.PNG",
+      image: "/doc1.jpg",
       specialty: "Especialidad...",
       details: "Detalles sobre el Dr",
     },

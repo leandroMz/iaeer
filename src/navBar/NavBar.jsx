@@ -20,7 +20,7 @@ export const NavBar = () => {
       <nav className={Styles.NavBaar}>
         <div className={Styles.NavBaarLogo}>
           <Link to="/">
-            <img src="./logotype.png" alt="" />
+            <img src="./logotype.jpg" alt="" />
           </Link>
         </div>
         <div className={Styles.NavMenu}>

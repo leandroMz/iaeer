@@ -29,7 +29,8 @@
 }
 
 .footAbaoutUsImg {
-    width: 45%;
+    background-color: white;
+    width: 50%;
     height: auto;
 }
 .footAbaoutUsImg img {

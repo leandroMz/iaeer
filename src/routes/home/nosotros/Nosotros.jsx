@@ -25,7 +25,7 @@ export const Nosotros = () => {
         </div>
       </div>
       <div className={Styles.footAbaoutUsImg}>
-        <img src="./fondo1.png" alt="" />
+        <img src="./fondo1.jpg" alt="" />
       </div>
     </div>
   )
