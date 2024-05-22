@@ -103,11 +103,18 @@
     margin-bottom: .5rem;
 }
 
+.imgFootCenter {
+    padding: 0 10rem;
+    background-color: #ebebeb;
+    border-radius: .3rem;
+}
+
 .fullHeightImage {
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: .3rem;
     height: 40rem;
     width: 100%;
     object-fit: cover;
-    background-color: black;
 }
 
 @media (max-width: 1500px) {}
@@ -127,7 +134,8 @@
         padding: 2rem 5rem;
     }
 
-    .researchCenterTop h2, .sectionCenter h2 {
+    .researchCenterTop h2,
+    .sectionCenter h2 {
         font-size: 1.7rem;
     }
 
@@ -153,7 +161,8 @@
     .researchCenterTop h2 {
         font-size: 1.5rem;
     }
-    .sectionCenter h2{
+
+    .sectionCenter h2 {
         font-size: 1.3rem;
     }
 }
@@ -166,24 +175,31 @@
     .researchCenterTop h2 {
         font-size: 1.2rem;
     }
-    .sectionCenter h2{
+
+    .sectionCenter h2 {
         font-size: 1rem;
     }
-    .sectionCenter h4{
+
+    .sectionCenter h4 {
         font-size: .8rem;
     }
 
-    .sectionCenter2 h2, .sectionCenter3 h2{
+    .sectionCenter2 h2,
+    .sectionCenter3 h2 {
         font-size: 1rem;
         margin-bottom: .3rem;
     }
-    .sectionCenter2 p, .sectionCenter3 p{
+
+    .sectionCenter2 p,
+    .sectionCenter3 p {
         font-size: .8rem;
     }
-    .cardContent h3{
+
+    .cardContent h3 {
         font-size: 1rem;
     }
-    .cardContent p{
+
+    .cardContent p {
         font-size: .8rem;
     }
 }
@@ -192,7 +208,9 @@
     .researchCenterTop h2 {
         font-size: .8rem;
     }
-    .sectionCenter2 h2, .sectionCenter3 h2{
+
+    .sectionCenter2 h2,
+    .sectionCenter3 h2 {
         font-size: .8rem;
     }
 }
