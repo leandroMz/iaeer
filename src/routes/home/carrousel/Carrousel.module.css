@@ -1,6 +1,6 @@
 .HCarrousel {
     position: relative;
-    background-image: url('bb.jpg');
+    background-image: url('/public/bb.jpg');
     background-size: cover;
     background-position: center;
     height: 50rem;
